@@ -23,9 +23,9 @@ Everything else in this document is built on this foundation.
 irm christitus.com/win | iex
 ```
 
-Removes telemetry and other crap. Read what it does before running. You're an adult.
+Removes telemetry and other crap. Just the standard cleanup is fine.
 
-While you're in there: go to the **Tweaks** tab → select **High Performance** (or **Ultimate Performance** if it shows up). Windows defaults to Balanced which throttles the CPU when it feels like it. High Performance keeps clock speeds where they should be. Worth doing once and forgetting about it.
+While you're in there: go to the **Tweaks** tab → select **High Performance** (or **Ultimate Performance** if it shows up).
 
 <img src="images/winutil.png" alt="ChrisTitus WinUtil showing the Tweaks tab with Power Plan options" width="50%">
 
@@ -50,7 +50,7 @@ Tiling is handled via a custom AutoHotkey script to tile all open windows in a g
 
 **Hotkey:** `Ctrl + Alt + T` — toggles between tiled grid and maximised.
 
-Requires [AutoHotkey](https://www.autohotkey.com/). Save the script and double-click to run. You'll see an `H` in the system tray.
+Requires [AutoHotkey](https://www.autohotkey.com/). Grab the script: [TileWindows.ahk](https://github.com/CostaFot/autohotkey/blob/main/TileWindows.ahk). Save it and double-click to run. You'll see an `H` in the system tray.
 
 ![AHK tiling script in action — windows splitting into a grid on Ctrl+Alt+T](images/autotile.gif)
 
