@@ -169,14 +169,6 @@ git config --global user.email "you@example.com"
 
 ---
 
-### Custom AHK scripts
-
-| Shortcut | Action |
-|---|---|
-| `Ctrl + Alt + T` | Toggle tile/maximise all windows (TileWindows.ahk) |
-
----
-
 ## 3. Mouse with extra buttons
 
 [Logitech G502 Lightspeed](https://www.logitechg.com/en-gb/shop/p/g502-lightspeed-wireless-gaming-mouse) — wireless gaming mouse with 11 programmable buttons. Used as a mouse-only control surface alongside Kando.
