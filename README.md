@@ -87,12 +87,12 @@ winget install --id Git.Git -e --source winget
 
 ### Launchers / Spotlight Alternatives
 
-| Tool | Notes                                                                         |
-|---|-------------------------------------------------------------------------------|
-| PowerToys Run (`Alt + Space`) | Enough for 99% of cases.                                                      |
-| Windows Command Palette | Supposed to be PowerToys Run 2.0. Still needs some cooking. Not convinced yet. |
-| [Flow Launcher](https://www.flowlauncher.com/) | Open source, plugin ecosystem, closer to the full Alfred experience.          |
-| [Everything + EverythingToolbar](https://www.voidtools.com/) | File search only. Really fast. Bit of an overkill.                            |
+| Tool | Notes                                                                          |
+|---|--------------------------------------------------------------------------------|
+| PowerToys Run (`Alt + Space`) | Enough for 99% of cases.                                                       |
+| Windows Command Palette | Supposed to be PowerToys Run 2.0? Still needs some cooking. Not convinced yet. |
+| [Flow Launcher](https://www.flowlauncher.com/) | Not bad but PowerToys run works fine                                           |
+| [Everything + EverythingToolbar](https://www.voidtools.com/) | File search only. Really fast. Bit of an overkill.                             |
 
 #### PowerToys Run plugins
 
@@ -112,11 +112,11 @@ winget install --id Git.Git -e --source winget
 
 ### Radial Menu
 
-| Tool | Notes                                                                                                                                                                                                                                                       |
-|---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Kando](https://github.com/kando-menu/kando) | Cross-platform pie/radial menu. I open this via mouse button, navigate by mouse direction. Launch apps, trigger shortcuts, open files. Designed for mouse/stylus/touch/controller input. Free, open source, 5.7k stars. Works on Windows, macOS, and Linux. |
+| Tool | Notes                                                                |
+|---|----------------------------------------------------------------------|
+| [Kando](https://github.com/kando-menu/kando) | Cross-platform pie/radial menu. Very nice when using only the mouse. |
 
-> Kando is not a keyboard-first tool — it's built around mouse gestures and radial navigation. If your hands are on the keyboard most of the time, AHK hotkeys are probably more efficient. If you're reaching for the mouse anyway, Kando is very fast once the muscle memory clicks.
+> Kando is not a keyboard-first tool — it's built around mouse gestures and radial navigation.
 
 ![Kando pie menu opening and navigating with mouse gestures](images/kando.gif)
 
@@ -124,7 +124,7 @@ winget install --id Git.Git -e --source winget
 
 ## 2. WSL2 — Windows Subsystem for Linux
 
-Pretty much the best thing that happens to Windows for the past 15 years. Gives a real Linux environment without the overhead of a traditional VM or dual boot.
+Pretty much the best thing that happened to Windows the past 15 years. Gives a real Linux environment without the overhead of a traditional VM or dual boot.
 
 ### Why bother
 
