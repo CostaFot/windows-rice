@@ -48,11 +48,14 @@ winget install --exact --id MartiCliment.UniGetUI --source winget
 
 ### Window Management
 
-Tiling is handled via a custom AutoHotkey script to tile all open windows in a grid, toggles back to maximised on second press. No dedicated tiling WM needed.
+Tiling is handled via **[TileWindows.ahk](https://github.com/CostaFot/autohotkey/blob/main/TileWindows.ahk)** — a custom AutoHotkey script that tiles all open windows into a grid, and toggles back to maximised on second press. No dedicated tiling WM needed.
+
+**Setup:**
+1. Install [AutoHotkey](https://www.autohotkey.com/)
+2. Download [TileWindows.ahk](https://github.com/CostaFot/autohotkey/blob/main/TileWindows.ahk)
+3. Double-click the script to run it — you'll see an `H` in the system tray
 
 **Hotkey:** `Ctrl + Alt + T` — toggles between tiled grid and maximised.
-
-Requires [AutoHotkey](https://www.autohotkey.com/). Grab the script: [TileWindows.ahk](https://github.com/CostaFot/autohotkey/blob/main/TileWindows.ahk). Save it and double-click to run. You'll see an `H` in the system tray.
 
 ![AHK tiling script in action — windows splitting into a grid on Ctrl+Alt+T](images/autotile.gif)
 
