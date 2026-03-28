@@ -1,16 +1,16 @@
 # Windows Setup Notes
 
-Things I set up on a fresh Windows install. Personal log — not a guide.
+Things I set up on a fresh Windows install.
 
 ---
 
 ## 0. First things first
 
-Get a proper manly wallpaper on there. Delete all desktop icons.
+Get a proper wallpaper on there. Delete all desktop icons.
+
+Everything else builds on this important foundation.
 
 ![Peepo Windows wallpaper](images/pepe-window.webp)
-
-Everything else builds on this.
 
 ---
 
@@ -69,7 +69,7 @@ Tiling via **[TileWindows.ahk](https://github.com/CostaFot/autohotkey/blob/main/
 
 **Going further: GlazeWM**
 
-[GlazeWM](https://github.com/glzr-io/glazewm) — i3-inspired tiling WM. Auto-tiles as windows open instead of a manual hotkey. I am not the biggest fan of it but hey, it works..
+[GlazeWM](https://github.com/glzr-io/glazewm) — i3-inspired tiling WM. Auto-tiles as windows open instead of a manual hotkey. I am not the biggest fan of it but hey, it works.
 
 ```powershell
 winget install glzr-io.GlazeWM
@@ -179,8 +179,6 @@ Extra buttons cover common actions without touching the keyboard — pairs well 
 
 ## 4. Hiding the taskbar
 
-Single screen, no distractions, maximum space. With TileWindows handling layout and Kando on the mouse, the taskbar is dead real estate.
-
 **Taskbar settings → Taskbar behaviours → Automatically hide the taskbar**
 
 ![Taskbar settings panel with Automatically hide the taskbar checked](images/taskbar.png)
@@ -211,7 +209,9 @@ For anything without a built-in autostart toggle: `Win + R` → `shell:startup` 
 
 ### LocalSend
 
-[LocalSend](https://localsend.org/) — open source AirDrop equivalent. Transfers files between any devices on the same WiFi, no internet, no account, no cloud, no cables. Windows, macOS, Linux, Android, iOS.
+| Tool | Notes |
+|---|---|
+| [LocalSend](https://localsend.org/) | Open source AirDrop equivalent. Transfers files between any devices on the same WiFi, no internet, no account, no cloud, no cables. Windows, macOS, Linux, Android, iOS. |
 
 ```powershell
 winget install LocalSend.LocalSend
@@ -225,7 +225,9 @@ No pairing needed — devices discover each other automatically.
 
 ### tinyshots
 
-[tinyshots](https://www.tinyshots.app/web) — browser-based screenshot beautifier. Paste a screenshot, add padding, rounded corners, gradient backgrounds, shadows, device frames. Using it for anything that needs to look presentable.
+| Tool | Notes |
+|---|---|
+| [tinyshots](https://www.tinyshots.app/web) | Browser-based screenshot beautifier. Paste a screenshot, add padding, rounded corners, gradient backgrounds, shadows, device frames. |
 
 Workflow: `PRTSC` to capture to clipboard → paste into tinyshots → export.
 
@@ -239,7 +241,9 @@ For config files, scripts, logs — anything that doesn't need a full-blown IDE.
 
 ### Notepad++
 
-[Notepad++](https://notepad-plus-plus.org/) — syntax highlighting for everything, tabs, regex find/replace, column editing, macros, plugins. Free, open source, still maintained.
+| Tool | Notes |
+|---|---|
+| [Notepad++](https://notepad-plus-plus.org/) | Syntax highlighting for everything, tabs, regex find/replace, column editing, macros, plugins. Free, open source, still maintained. |
 
 ```powershell
 winget install Notepad++.Notepad++
