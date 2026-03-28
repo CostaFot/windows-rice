@@ -6,7 +6,7 @@ Some common tweaks, tools, and workflows I set up on a fresh Windows install.
 
 ## 0. First things first
 
-Get a proper manly wallpaper on there and delete all desktop icons.
+Get a proper manly wallpaper on there. Delete all desktop icons.
 
 ![Peepo Windows wallpaper](images/pepe-window.webp)
 
@@ -18,12 +18,14 @@ Everything else in this document is built on this foundation.
 
 ### System Cleanup
 
+[ChrisTitus WinUtil](https://github.com/christitustech/winutil)
+
 ```powershell
 # ChrisTitus WinUtil — run in PowerShell as Admin
 irm christitus.com/win | iex
 ```
 
-Removes telemetry and other crap. Just the standard cleanup is fine.
+Removes telemetry and other crap. Just the standard selection is fine.
 
 While you're in there: go to the **Tweaks** tab → select **High Performance** (or **Ultimate Performance** if it shows up).
 
@@ -67,7 +69,7 @@ Requires [AutoHotkey](https://www.autohotkey.com/). Grab the script: [TileWindow
 
 **If you want to go further: GlazeWM**
 
-[GlazeWM](https://github.com/glzr-io/glazewm) is an i3-inspired tiling window manager for Windows. Instead of a hotkey that tiles everything at once, it auto-tiles windows as you open them — every new window splits the available space automatically, i3-style.
+[GlazeWM](https://github.com/glzr-io/glazewm) - every new window splits the available space automatically.
 
 Install via WinGet:
 
@@ -79,8 +81,10 @@ I am not the biggest fan of it but hey, it works.
 
 ### Terminal
 
-I just use Windows Terminal. WSL2 provides a real Linux shell when needed.
-Git Bash for a quick Unixy terminal just for fun.
+I just use Windows Terminal. WSL2 provides a real Linux shell when needed anyway.
+
+Git Bash for a quick Unixy terminal just for fun while on Windows.
+
 ```powershell
 winget install --id Git.Git -e --source winget
 ```
@@ -91,20 +95,14 @@ winget install --id Git.Git -e --source winget
 |---|--------------------------------------------------------------------------------|
 | PowerToys Run (`Alt + Space`) | Enough for 99% of cases.                                                       |
 | Windows Command Palette | Supposed to be PowerToys Run 2.0? Still needs some cooking. Not convinced yet. |
-| [Flow Launcher](https://www.flowlauncher.com/) | Not bad but PowerToys run works fine                                           |
+| [Flow Launcher](https://www.flowlauncher.com/) | Not bad but PowerToys Run works fine                                           |
 | [Everything + EverythingToolbar](https://www.voidtools.com/) | File search only. Really fast. Bit of an overkill.                             |
 
 #### PowerToys Run plugins
 
 | Plugin | Notes |
 |---|---|
-| [Video Downloader](https://github.com/ruslanlap/PowerToysRun-VideoDownloader) | Download videos from YouTube and 1000+ sites directly from PowerToys Run. Type `dl <url>` and hit Enter. Supports MP4, MP3, quality selection, subtitles. Powered by yt-dlp under the hood, auto-managed. |
-
-**Install:**
-1. Download the latest zip from the [releases page](https://github.com/ruslanlap/PowerToysRun-VideoDownloader/releases/latest) (x64 or ARM64)
-2. Extract to `%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins\`
-3. Restart PowerToys (tray icon → Exit, relaunch)
-4. Enable in PowerToys Settings → Run → Plugins → Video Downloader
+| [Video Downloader](https://github.com/ruslanlap/PowerToysRun-VideoDownloader) | Download videos from YouTube and 1000+ sites directly from PowerToys Run. Type `dl <url>` and hit Enter. Supports MP4, MP3, quality selection, subtitles. |
 
 **Usage:** `Alt + Space` → `dl https://youtube.com/...` → Enter.
 
@@ -171,21 +169,6 @@ git config --global user.email "you@example.com"
 
 ---
 
-## 3. Windows keyboard shortcuts cheat sheet
-
-### Native Windows
-
-| Shortcut | Action |
-|---|---|
-| `Win + Arrow keys` | Snap windows left/right/corners |
-| `Win + Z` | Snap Layouts picker (Windows 11) |
-| `Win + Ctrl + Left/Right` | Switch virtual desktop |
-| `Win + Ctrl + D` | New virtual desktop |
-| `Win + Ctrl + F4` | Close current desktop |
-| `Win + Tab` | Task View |
-| `Win + E` | Open File Explorer (shows Quick Access / recent) |
-| `Alt + Space` | PowerToys Run / Command Palette |
-
 ### Custom AHK scripts
 
 | Shortcut | Action |
@@ -194,7 +177,7 @@ git config --global user.email "you@example.com"
 
 ---
 
-## 4. Mouse with extra buttons
+## 3. Mouse with extra buttons
 
 [Logitech G502 Lightspeed](https://www.logitechg.com/en-gb/shop/p/g502-lightspeed-wireless-gaming-mouse) — wireless gaming mouse with 11 programmable buttons. Used as a mouse-only control surface alongside Kando.
 
@@ -219,7 +202,7 @@ The G502's extra buttons are mapped to cover common actions without touching the
 
 ---
 
-## 5. Hiding the taskbar
+## 4. Hiding the taskbar
 
 The whole point of this setup is a single screen desktop with no distractions and maximum space for windows.
 
@@ -245,7 +228,7 @@ With auto-hide enabled, notification badges and tray alerts are hidden until you
 
 ---
 
-## 6. Startup configuration
+## 5. Startup configuration
 
 Everything that needs to run on login and how to set it up.
 
@@ -268,7 +251,7 @@ The universal method for anything that doesn't have a built-in autostart toggle:
 
 ---
 
-## 7. File sharing between devices
+## 6. File sharing between devices
 
 ### LocalSend
 
@@ -283,7 +266,7 @@ Or download from [localsend.org/download](https://localsend.org/download).
 
 ---
 
-## 8. Screenshots
+## 7. Screenshots
 
 ### tinyshots
 
